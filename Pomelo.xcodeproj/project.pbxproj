@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E08C9E7F0BF5C09FB155891 /* Pods_Pomelo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EB3D9F6B47BE1780C88844 /* Pods_Pomelo.framework */; };
+		504E154E24F6C23900AA39AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 504E154D24F6C23800AA39AA /* GoogleService-Info.plist */; };
+		504E155024F6C38B00AA39AA /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E154F24F6C38B00AA39AA /* SignIn.swift */; };
+		504E155224F6F54900AA39AA /* pomeloanimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 504E155124F6F54900AA39AA /* pomeloanimation.json */; };
 		509530FE24F5AD7300D50C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509530FD24F5AD7300D50C2D /* AppDelegate.swift */; };
 		5095310024F5AD7300D50C2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509530FF24F5AD7300D50C2D /* SceneDelegate.swift */; };
-		5095310224F5AD7300D50C2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5095310124F5AD7300D50C2D /* ViewController.swift */; };
-		5095310524F5AD7300D50C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5095310324F5AD7300D50C2D /* Main.storyboard */; };
+		5095310224F5AD7300D50C2D /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5095310124F5AD7300D50C2D /* Main.swift */; };
 		5095310724F5AD7400D50C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5095310624F5AD7400D50C2D /* Assets.xcassets */; };
 		5095310A24F5AD7400D50C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5095310824F5AD7400D50C2D /* LaunchScreen.storyboard */; };
+		5095311424F5C4DC00D50C2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5095311324F5C4DC00D50C2D /* Extensions.swift */; };
+		5095313624F6BEE200D50C2D /* treegrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 5095313524F6BEE200D50C2D /* treegrow.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00EB3D9F6B47BE1780C88844 /* Pods_Pomelo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pomelo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FAACA00263EBFF0A88B475 /* Pods-Pomelo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomelo.debug.xcconfig"; path = "Target Support Files/Pods-Pomelo/Pods-Pomelo.debug.xcconfig"; sourceTree = "<group>"; };
+		504E154D24F6C23800AA39AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		504E154F24F6C38B00AA39AA /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		504E155124F6F54900AA39AA /* pomeloanimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pomeloanimation.json; sourceTree = "<group>"; };
 		509530FA24F5AD7300D50C2D /* Pomelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509530FD24F5AD7300D50C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		509530FF24F5AD7300D50C2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5095310124F5AD7300D50C2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5095310424F5AD7300D50C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5095310124F5AD7300D50C2D /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		5095310624F5AD7400D50C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5095310924F5AD7400D50C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5095310B24F5AD7400D50C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5095311324F5C4DC00D50C2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5095313524F6BEE200D50C2D /* treegrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = treegrow.json; sourceTree = "<group>"; };
+		959C5F9D773BC80EE7648A4F /* Pods-Pomelo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomelo.release.xcconfig"; path = "Target Support Files/Pods-Pomelo/Pods-Pomelo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E08C9E7F0BF5C09FB155891 /* Pods_Pomelo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				509530FC24F5AD7300D50C2D /* Pomelo */,
 				509530FB24F5AD7300D50C2D /* Products */,
+				A6F9F5D83E70F3BA1F99493D /* Pods */,
+				B77CE9F45C4D5DD765B18A83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,36 @@
 		509530FC24F5AD7300D50C2D /* Pomelo */ = {
 			isa = PBXGroup;
 			children = (
+				5095313524F6BEE200D50C2D /* treegrow.json */,
+				504E155124F6F54900AA39AA /* pomeloanimation.json */,
 				509530FD24F5AD7300D50C2D /* AppDelegate.swift */,
 				509530FF24F5AD7300D50C2D /* SceneDelegate.swift */,
-				5095310124F5AD7300D50C2D /* ViewController.swift */,
-				5095310324F5AD7300D50C2D /* Main.storyboard */,
+				504E154F24F6C38B00AA39AA /* SignIn.swift */,
+				5095311324F5C4DC00D50C2D /* Extensions.swift */,
+				5095310124F5AD7300D50C2D /* Main.swift */,
 				5095310624F5AD7400D50C2D /* Assets.xcassets */,
 				5095310824F5AD7400D50C2D /* LaunchScreen.storyboard */,
 				5095310B24F5AD7400D50C2D /* Info.plist */,
+				504E154D24F6C23800AA39AA /* GoogleService-Info.plist */,
 			);
 			path = Pomelo;
+			sourceTree = "<group>";
+		};
+		A6F9F5D83E70F3BA1F99493D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12FAACA00263EBFF0A88B475 /* Pods-Pomelo.debug.xcconfig */,
+				959C5F9D773BC80EE7648A4F /* Pods-Pomelo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B77CE9F45C4D5DD765B18A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00EB3D9F6B47BE1780C88844 /* Pods_Pomelo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5095310E24F5AD7400D50C2D /* Build configuration list for PBXNativeTarget "Pomelo" */;
 			buildPhases = (
+				4516C5558CE02515B80408E9 /* [CP] Check Pods Manifest.lock */,
 				509530F624F5AD7300D50C2D /* Sources */,
 				509530F724F5AD7300D50C2D /* Frameworks */,
 				509530F824F5AD7300D50C2D /* Resources */,
+				B44A1E9497AB0BE2DD07B413 /* [CP] Embed Pods Frameworks */,
+				B3B2DA8D0967B59DADB9B9CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,20 +164,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5095313624F6BEE200D50C2D /* treegrow.json in Resources */,
+				504E154E24F6C23900AA39AA /* GoogleService-Info.plist in Resources */,
+				504E155224F6F54900AA39AA /* pomeloanimation.json in Resources */,
 				5095310A24F5AD7400D50C2D /* LaunchScreen.storyboard in Resources */,
 				5095310724F5AD7400D50C2D /* Assets.xcassets in Resources */,
-				5095310524F5AD7300D50C2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4516C5558CE02515B80408E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pomelo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B2DA8D0967B59DADB9B9CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pomelo/Pods-Pomelo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pomelo/Pods-Pomelo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pomelo/Pods-Pomelo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B44A1E9497AB0BE2DD07B413 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pomelo/Pods-Pomelo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pomelo/Pods-Pomelo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pomelo/Pods-Pomelo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		509530F624F5AD7300D50C2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5095310224F5AD7300D50C2D /* ViewController.swift in Sources */,
+				5095311424F5C4DC00D50C2D /* Extensions.swift in Sources */,
+				5095310224F5AD7300D50C2D /* Main.swift in Sources */,
+				504E155024F6C38B00AA39AA /* SignIn.swift in Sources */,
 				509530FE24F5AD7300D50C2D /* AppDelegate.swift in Sources */,
 				5095310024F5AD7300D50C2D /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +249,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5095310324F5AD7300D50C2D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5095310424F5AD7300D50C2D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5095310824F5AD7400D50C2D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +376,7 @@
 		};
 		5095310F24F5AD7400D50C2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FAACA00263EBFF0A88B475 /* Pods-Pomelo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +394,7 @@
 		};
 		5095311024F5AD7400D50C2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959C5F9D773BC80EE7648A4F /* Pods-Pomelo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

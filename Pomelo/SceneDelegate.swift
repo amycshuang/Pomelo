@@ -7,17 +7,42 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+class SceneDelegate: UIResponder, UIWindowSceneDelegate, GIDSignInDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        
+        FirebaseApp.configure()
+        GIDSignIn.sharedInstance()?.clientID = FirebaseApp.app()?.options.clientID
+        GIDSignIn.sharedInstance()?.delegate = self
+        
+        if let windowScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowScene)
+            let rootVC = SignIn()
+            window.rootViewController = UINavigationController(rootViewController: rootVC)
+            self.window = window
+            window.makeKeyAndVisible()
+        }
+        
+        if GIDSignIn.sharedInstance().hasPreviousSignIn() {
+            DispatchQueue.main.async {
+                GIDSignIn.sharedInstance()?.restorePreviousSignIn()
+            }
+        }
+        
+    }
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        if let error = error {
+            print(error.localizedDescription)
+            return
+        }
+        let navVC = UINavigationController(rootViewController: Main())
+        window?.rootViewController = navVC
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
