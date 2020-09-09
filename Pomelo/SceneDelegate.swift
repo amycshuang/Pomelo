@@ -28,12 +28,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate, GIDSignInDelegate {
             window.makeKeyAndVisible()
         }
         
-        if GIDSignIn.sharedInstance().hasPreviousSignIn() {
-            DispatchQueue.main.async {
-                GIDSignIn.sharedInstance()?.restorePreviousSignIn()
-            }
-        }
-        
     }
     
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {

@@ -52,6 +52,7 @@ PODS:
     - GoogleUtilities/Environment (~> 6.6)
     - GoogleUtilities/UserDefaults (~> 6.6)
     - PromisesObjC (~> 1.2)
+  - FSCalendar (2.8.1)
   - GoogleAppMeasurement (6.5.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -94,7 +95,6 @@ PODS:
   - GTMSessionFetcher/Full (1.4.0):
     - GTMSessionFetcher/Core (= 1.4.0)
   - leveldb-library (1.22)
-  - lottie-ios (3.1.8)
   - nanopb (1.30905.0):
     - nanopb/decode (= 1.30905.0)
     - nanopb/encode (= 1.30905.0)
@@ -107,8 +107,8 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
+  - FSCalendar
   - GoogleSignIn
-  - lottie-ios
   - SnapKit
 
 SPEC REPOS:
@@ -123,6 +123,7 @@ SPEC REPOS:
     - FirebaseCoreDiagnosticsInterop
     - FirebaseDatabase
     - FirebaseInstallations
+    - FSCalendar
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
@@ -131,7 +132,6 @@ SPEC REPOS:
     - GTMAppAuth
     - GTMSessionFetcher
     - leveldb-library
-    - lottie-ios
     - nanopb
     - PromisesObjC
     - SnapKit
@@ -147,6 +147,7 @@ SPEC CHECKSUMS:
   FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
   FirebaseDatabase: 4e99c0c475d1ee0aa64ae2b53c93f80b7b60d7d9
   FirebaseInstallations: 2119fb3e46b0a88bfdbf12562f855ee3252462fa
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
   GoogleAppMeasurement: 4c644d86835d827bab30ab6aabb9ecaf1f500735
   GoogleDataTransport: f6f8eba931df03ebd2232ff4645aa85f8f47b5ab
   GoogleDataTransportCCTSupport: d70a561f7d236af529fee598835caad5e25f6d3d
@@ -155,11 +156,10 @@ SPEC CHECKSUMS:
   GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
-  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 1f68b742619dd9f073dbc73def39a98241acb0aa
+PODFILE CHECKSUM: a70607b2bca6ec3cbfce4af3ff7c99e99f60693b
 
 COCOAPODS: 1.9.1

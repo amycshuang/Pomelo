@@ -11,5 +11,6 @@ target 'Pomelo' do
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
-  pod 'lottie-ios'
+  pod 'FSCalendar'
+ 
 end

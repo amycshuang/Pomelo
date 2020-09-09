@@ -8,24 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		1E08C9E7F0BF5C09FB155891 /* Pods_Pomelo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EB3D9F6B47BE1780C88844 /* Pods_Pomelo.framework */; };
+		500D1A4E25058AE3005A2CA5 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D1A4D25058AE3005A2CA5 /* CircularProgressBar.swift */; };
+		500D1A502505C27F005A2CA5 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D1A4F2505C27F005A2CA5 /* SubjectCell.swift */; };
+		500D1A522505C343005A2CA5 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D1A512505C343005A2CA5 /* Subject.swift */; };
 		504E154E24F6C23900AA39AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 504E154D24F6C23800AA39AA /* GoogleService-Info.plist */; };
 		504E155024F6C38B00AA39AA /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E154F24F6C38B00AA39AA /* SignIn.swift */; };
-		504E155224F6F54900AA39AA /* pomeloanimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 504E155124F6F54900AA39AA /* pomeloanimation.json */; };
+		5055682224FEDB9F00B82048 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681524FEDB9800B82048 /* Roboto-BlackItalic.ttf */; };
+		5055682324FEDB9F00B82048 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681624FEDB9800B82048 /* Roboto-Light.ttf */; };
+		5055682424FEDB9F00B82048 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681724FEDB9900B82048 /* Roboto-MediumItalic.ttf */; };
+		5055682524FEDB9F00B82048 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681824FEDB9900B82048 /* Roboto-LightItalic.ttf */; };
+		5055682624FEDB9F00B82048 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681924FEDB9A00B82048 /* Roboto-Thin.ttf */; };
+		5055682724FEDB9F00B82048 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681A24FEDB9B00B82048 /* Roboto-Black.ttf */; };
+		5055682824FEDB9F00B82048 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681B24FEDB9B00B82048 /* Roboto-Medium.ttf */; };
+		5055682924FEDB9F00B82048 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681C24FEDB9C00B82048 /* Roboto-Italic.ttf */; };
+		5055682A24FEDB9F00B82048 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5055681D24FEDB9C00B82048 /* LICENSE.txt */; };
+		5055682B24FEDB9F00B82048 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681E24FEDB9D00B82048 /* Roboto-BoldItalic.ttf */; };
+		5055682C24FEDB9F00B82048 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055681F24FEDB9E00B82048 /* Roboto-ThinItalic.ttf */; };
+		5055682D24FEDB9F00B82048 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055682024FEDB9E00B82048 /* Roboto-Regular.ttf */; };
+		5055682E24FEDB9F00B82048 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5055682124FEDB9F00B82048 /* Roboto-Bold.ttf */; };
+		5055683024FEE0BD00B82048 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055682F24FEE0BD00B82048 /* Font.swift */; };
+		5055683224FEECEA00B82048 /* TimerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055683124FEECEA00B82048 /* TimerCollectionViewCell.swift */; };
+		5055683424FEF5E700B82048 /* PomeloTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055683324FEF5E700B82048 /* PomeloTimer.swift */; };
+		5055683624FF087000B82048 /* AddTimerPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055683524FF087000B82048 /* AddTimerPopup.swift */; };
+		5055683824FF29DF00B82048 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055683724FF29DF00B82048 /* Protocols.swift */; };
+		5055683A24FF2C9F00B82048 /* QuickStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055683924FF2C9F00B82048 /* QuickStudy.swift */; };
+		5055683C24FF2CE700B82048 /* NewTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055683B24FF2CE700B82048 /* NewTimer.swift */; };
 		509530FE24F5AD7300D50C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509530FD24F5AD7300D50C2D /* AppDelegate.swift */; };
 		5095310024F5AD7300D50C2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509530FF24F5AD7300D50C2D /* SceneDelegate.swift */; };
 		5095310224F5AD7300D50C2D /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5095310124F5AD7300D50C2D /* Main.swift */; };
 		5095310724F5AD7400D50C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5095310624F5AD7400D50C2D /* Assets.xcassets */; };
 		5095310A24F5AD7400D50C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5095310824F5AD7400D50C2D /* LaunchScreen.storyboard */; };
 		5095311424F5C4DC00D50C2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5095311324F5C4DC00D50C2D /* Extensions.swift */; };
-		5095313624F6BEE200D50C2D /* treegrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 5095313524F6BEE200D50C2D /* treegrow.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00EB3D9F6B47BE1780C88844 /* Pods_Pomelo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pomelo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FAACA00263EBFF0A88B475 /* Pods-Pomelo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomelo.debug.xcconfig"; path = "Target Support Files/Pods-Pomelo/Pods-Pomelo.debug.xcconfig"; sourceTree = "<group>"; };
+		500D1A4D25058AE3005A2CA5 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		500D1A4F2505C27F005A2CA5 /* SubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SubjectCell.swift; path = Pomelo/Cells/SubjectCell.swift; sourceTree = SOURCE_ROOT; };
+		500D1A512505C343005A2CA5 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Subject.swift; path = Pomelo/Models/Subject.swift; sourceTree = SOURCE_ROOT; };
 		504E154D24F6C23800AA39AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		504E154F24F6C38B00AA39AA /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
-		504E155124F6F54900AA39AA /* pomeloanimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pomeloanimation.json; sourceTree = "<group>"; };
+		5055681524FEDB9800B82048 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5055681624FEDB9800B82048 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		5055681724FEDB9900B82048 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5055681824FEDB9900B82048 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		5055681924FEDB9A00B82048 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		5055681A24FEDB9B00B82048 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		5055681B24FEDB9B00B82048 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		5055681C24FEDB9C00B82048 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		5055681D24FEDB9C00B82048 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5055681E24FEDB9D00B82048 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5055681F24FEDB9E00B82048 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5055682024FEDB9E00B82048 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5055682124FEDB9F00B82048 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		5055682F24FEE0BD00B82048 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		5055683124FEECEA00B82048 /* TimerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCollectionViewCell.swift; sourceTree = "<group>"; };
+		5055683324FEF5E700B82048 /* PomeloTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomeloTimer.swift; sourceTree = "<group>"; };
+		5055683524FF087000B82048 /* AddTimerPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimerPopup.swift; sourceTree = "<group>"; };
+		5055683724FF29DF00B82048 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		5055683924FF2C9F00B82048 /* QuickStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStudy.swift; sourceTree = "<group>"; };
+		5055683B24FF2CE700B82048 /* NewTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimer.swift; sourceTree = "<group>"; };
 		509530FA24F5AD7300D50C2D /* Pomelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		509530FD24F5AD7300D50C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		509530FF24F5AD7300D50C2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +77,6 @@
 		5095310924F5AD7400D50C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5095310B24F5AD7400D50C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5095311324F5C4DC00D50C2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		5095313524F6BEE200D50C2D /* treegrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = treegrow.json; sourceTree = "<group>"; };
 		959C5F9D773BC80EE7648A4F /* Pods-Pomelo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomelo.release.xcconfig"; path = "Target Support Files/Pods-Pomelo/Pods-Pomelo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +92,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5055681424FEDB6600B82048 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5055681D24FEDB9C00B82048 /* LICENSE.txt */,
+				5055681A24FEDB9B00B82048 /* Roboto-Black.ttf */,
+				5055681524FEDB9800B82048 /* Roboto-BlackItalic.ttf */,
+				5055682124FEDB9F00B82048 /* Roboto-Bold.ttf */,
+				5055681E24FEDB9D00B82048 /* Roboto-BoldItalic.ttf */,
+				5055681C24FEDB9C00B82048 /* Roboto-Italic.ttf */,
+				5055681624FEDB9800B82048 /* Roboto-Light.ttf */,
+				5055681824FEDB9900B82048 /* Roboto-LightItalic.ttf */,
+				5055681B24FEDB9B00B82048 /* Roboto-Medium.ttf */,
+				5055681724FEDB9900B82048 /* Roboto-MediumItalic.ttf */,
+				5055682024FEDB9E00B82048 /* Roboto-Regular.ttf */,
+				5055681924FEDB9A00B82048 /* Roboto-Thin.ttf */,
+				5055681F24FEDB9E00B82048 /* Roboto-ThinItalic.ttf */,
+				5055682F24FEE0BD00B82048 /* Font.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5055683D24FF2D2000B82048 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				504E154F24F6C38B00AA39AA /* SignIn.swift */,
+				5095310124F5AD7300D50C2D /* Main.swift */,
+				5055683924FF2C9F00B82048 /* QuickStudy.swift */,
+				5055683B24FF2CE700B82048 /* NewTimer.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5055683E24FF2D4500B82048 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				5055683724FF29DF00B82048 /* Protocols.swift */,
+				5095311324F5C4DC00D50C2D /* Extensions.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		5055683F24FF2D5800B82048 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5055683524FF087000B82048 /* AddTimerPopup.swift */,
+				500D1A4D25058AE3005A2CA5 /* CircularProgressBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5055684024FF2D6000B82048 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5055683324FEF5E700B82048 /* PomeloTimer.swift */,
+				500D1A512505C343005A2CA5 /* Subject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5055684124FF2D6800B82048 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5055683124FEECEA00B82048 /* TimerCollectionViewCell.swift */,
+				500D1A4F2505C27F005A2CA5 /* SubjectCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		509530F124F5AD7300D50C2D = {
 			isa = PBXGroup;
 			children = (
@@ -71,13 +181,14 @@
 		509530FC24F5AD7300D50C2D /* Pomelo */ = {
 			isa = PBXGroup;
 			children = (
-				5095313524F6BEE200D50C2D /* treegrow.json */,
-				504E155124F6F54900AA39AA /* pomeloanimation.json */,
+				5055681424FEDB6600B82048 /* Fonts */,
 				509530FD24F5AD7300D50C2D /* AppDelegate.swift */,
 				509530FF24F5AD7300D50C2D /* SceneDelegate.swift */,
-				504E154F24F6C38B00AA39AA /* SignIn.swift */,
-				5095311324F5C4DC00D50C2D /* Extensions.swift */,
-				5095310124F5AD7300D50C2D /* Main.swift */,
+				5055683D24FF2D2000B82048 /* Controllers */,
+				5055683E24FF2D4500B82048 /* Supporting */,
+				5055684024FF2D6000B82048 /* Models */,
+				5055684124FF2D6800B82048 /* Cells */,
+				5055683F24FF2D5800B82048 /* Views */,
 				5095310624F5AD7400D50C2D /* Assets.xcassets */,
 				5095310824F5AD7400D50C2D /* LaunchScreen.storyboard */,
 				5095310B24F5AD7400D50C2D /* Info.plist */,
@@ -164,11 +275,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5095313624F6BEE200D50C2D /* treegrow.json in Resources */,
+				5055682A24FEDB9F00B82048 /* LICENSE.txt in Resources */,
+				5055682824FEDB9F00B82048 /* Roboto-Medium.ttf in Resources */,
+				5055682624FEDB9F00B82048 /* Roboto-Thin.ttf in Resources */,
 				504E154E24F6C23900AA39AA /* GoogleService-Info.plist in Resources */,
-				504E155224F6F54900AA39AA /* pomeloanimation.json in Resources */,
+				5055682B24FEDB9F00B82048 /* Roboto-BoldItalic.ttf in Resources */,
 				5095310A24F5AD7400D50C2D /* LaunchScreen.storyboard in Resources */,
+				5055682524FEDB9F00B82048 /* Roboto-LightItalic.ttf in Resources */,
+				5055682324FEDB9F00B82048 /* Roboto-Light.ttf in Resources */,
+				5055682724FEDB9F00B82048 /* Roboto-Black.ttf in Resources */,
 				5095310724F5AD7400D50C2D /* Assets.xcassets in Resources */,
+				5055682C24FEDB9F00B82048 /* Roboto-ThinItalic.ttf in Resources */,
+				5055682424FEDB9F00B82048 /* Roboto-MediumItalic.ttf in Resources */,
+				5055682D24FEDB9F00B82048 /* Roboto-Regular.ttf in Resources */,
+				5055682924FEDB9F00B82048 /* Roboto-Italic.ttf in Resources */,
+				5055682E24FEDB9F00B82048 /* Roboto-Bold.ttf in Resources */,
+				5055682224FEDB9F00B82048 /* Roboto-BlackItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,10 +361,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5095311424F5C4DC00D50C2D /* Extensions.swift in Sources */,
+				500D1A522505C343005A2CA5 /* Subject.swift in Sources */,
 				5095310224F5AD7300D50C2D /* Main.swift in Sources */,
+				5055683024FEE0BD00B82048 /* Font.swift in Sources */,
 				504E155024F6C38B00AA39AA /* SignIn.swift in Sources */,
+				5055683C24FF2CE700B82048 /* NewTimer.swift in Sources */,
+				5055683224FEECEA00B82048 /* TimerCollectionViewCell.swift in Sources */,
+				5055683824FF29DF00B82048 /* Protocols.swift in Sources */,
+				5055683624FF087000B82048 /* AddTimerPopup.swift in Sources */,
+				5055683A24FF2C9F00B82048 /* QuickStudy.swift in Sources */,
 				509530FE24F5AD7300D50C2D /* AppDelegate.swift in Sources */,
+				500D1A502505C27F005A2CA5 /* SubjectCell.swift in Sources */,
 				5095310024F5AD7300D50C2D /* SceneDelegate.swift in Sources */,
+				5055683424FEF5E700B82048 /* PomeloTimer.swift in Sources */,
+				500D1A4E25058AE3005A2CA5 /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
